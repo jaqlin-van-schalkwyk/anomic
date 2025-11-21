@@ -1,0 +1,43 @@
+Package: anomic
+Title: Create and Draw Analysis of Means (ANOM) Object using 'ggplot'
+Version: 1.0.0.0
+Authors@R: c(
+    person("Jaqlin", "van Schalkwyk", , "jaqlin@gmail.com", role = c("aut", "cre")),
+    person("Jo", "van Schalkwyk", , "jvanschalkwyk@gmail.com", role = "aut")
+  )
+Description: A refinement and rewrite of the original ANOM package by
+    Philip Pallman.  This package allows full control and theming of
+    ggplot-style plots of Analysis of Means graphs.  Analysis of Means
+    (ANOM) is a powerful and intuitive method for comparing groups under
+    the assumption that they share a common mean. Each group acquires its
+    own, robust confidence intervals under that assumption, and it is
+    visually intuitive whether the individual mean for that group is
+    unexpectedly outside those intervals, or not.  A powerful alternative
+    to flawed comparisons using e.g. league tables and arbitrary
+    thresholds.
+License: GPL-3
+Depends: 
+    R (>= 3.5)
+Imports: 
+    ggplot2,
+    MCPAN,
+    methods,
+    multcomp,
+    nparcomp,
+    SimComp,
+    stats,
+    tools
+Suggests: 
+    knitr,
+    lme4,
+    nlme,
+    rmarkdown,
+    testthat (>= 3.0.0)
+VignetteBuilder: 
+    knitr
+Config/testthat/edition: 3
+Encoding: UTF-8
+Language: en-US
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3

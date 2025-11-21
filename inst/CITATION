@@ -1,0 +1,15 @@
+citHeader("Please cite the ANOM package in publications as follows:")
+
+bibentry(bibtype = "Article",
+         textVersion = "Pallmann P, Hothorn LA (2016) Analysis of means: a generalized approach using R. Journal of Applied Statistics, 43(8), 1541--1560. DOI: 10.1080/02664763.2015.1117584",
+         title = "Analysis of means: a generalized approach using R",
+         author = c(person(given = "Philip",
+                           family = "Pallmann"),
+                    person(given = "Ludwig A.",
+                           family = "Hothorn")),
+         year = "2016",
+         volume = "43",
+         number = "8",
+         pages = "1541--1560",
+         journal = "Journal of Applied Statistics",
+         doi = "10.1080/02664763.2015.1117584")
