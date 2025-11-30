@@ -9,7 +9,7 @@ Changes from ANOM:
     - Removed internal function and moved functionality into the general function
     - Slightly changed the structure of the wrapper function to limit instances of anomic_gen()
 - Pass ellipsis parameter to ggplot, allowing full use of ggplot parameters
-    - Added an internal function to 
+    - Added an internal function to support this
 - Checked for visual back-compatibility with the previous version
 - Added tests using the testthat package, ensuring full test coverage
 
